@@ -1,0 +1,37 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  min-height: 100%;
+  padding:5em;
+  background-color:rgba(49, 184, 218, 0.979);
+}
+
+.rhap_volume-button,
+.rhap_play-pause-button,
+.rhap_repeat-button,
+.rhap_forward-button,
+.rhap_rewind-button {
+  color:red !important;
+}
+
+//react-audio-player classNames Key:
+
+// Volume button called: rhap_volume-button
+// Volume container called: rhap_volume-container
+
+// Play/Pause button called: rhap_play-pause-button
+// Loop Button called: rhap_repeat-button
+
+// Fast Forward called: rhap_forward-button
+// Back/Rewind called: rhap_rewind-button
+
+// Current Time called: rhap_current-time
+// Total Time called: rhap_total-time
